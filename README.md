@@ -39,8 +39,8 @@ A modern, high-performance, and bespoke developer portfolio crafted with semanti
   - Strict visual consistency between interactive web interfaces, static PDFs, and social media branding.
   - English proficiency: Upper-intermediate (B2/C1) for remote international collaboration.
 
-### 3. 💻 100% GitHub Repository Coverage (14 Repositories)
-Includes real-time instant search and category filtering for all public repositories by `@AryanAfzal`:
+### 3. 💻 Featured GitHub Repositories (9 Core Projects)
+Includes real-time instant search and category filtering for featured public repositories by `@AryanAfzal`:
 1. `AutoGrade` — Flagship AI handwritten exam evaluation platform.
 2. `OCR_SYSTEM` — Vision transformer microservice with Microsoft TrOCR Base and FastAPI.
 3. `EngroFromsPortal` — Centralized enterprise workflow and form digitization system.
@@ -50,11 +50,6 @@ Includes real-time instant search and category filtering for all public reposito
 7. `LineTracing-App-Flutter-` — Mobile telemetry and PID controller for autonomous robotics.
 8. `Tailor-Managment-System` — Client measurement and custom apparel order ERP (Flutter, Dart, SQLite).
 9. `Transport-Management-System-TMS-` — Java Swing desktop logistics and fleet management.
-10. `it-cert-automation-practice` — Google IT Automation with Python labs and Linux scripting.
-11. `About` — Modular TypeScript and React developer bio component.
-12. `Aryan_About_repo` — Frontend foundation design tokens and reusable UI primitives.
-13. `WebFork1` — Experimental multi-framework visual web dev tool (React/Vue/Svelte/Qwik).
-14. `MuhammadAryanAfzal` — The source repository for this portfolio.
 
 ### 4. 📬 Fully Functional Contact Form (Direct to `maryan3604@gmail.com`)
 - Powered by FormSubmit AJAX endpoint without requiring backend server maintenance.

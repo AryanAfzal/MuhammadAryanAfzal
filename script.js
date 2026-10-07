@@ -353,11 +353,7 @@ function initInteractiveTerminal() {
   6. olt-gui-dashboard           -> Telecommunications Optical Line Terminal network monitoring UI
   7. LineTracing-App-Flutter-    -> Mobile telemetry & PID controller for autonomous robotics
   8. Tailor-Managment-System     -> Client measurement & order ERP mobile app (Flutter/Dart)
-  9. Transport-Management-System -> Java Swing logistics and fleet management desktop software
- 10. it-cert-automation-practice -> Google IT Automation Python practice and OS scripting labs
- 11. About & Aryan_About_repo    -> Modular React/TypeScript developer components
- 12. WebFork1                    -> Multi-framework visual web dev tool (React/Vue/Svelte/Qwik)
- 13. MuhammadAryanAfzal          -> Source code of this live portfolio deployed on Vercel`,
+  9. Transport-Management-System -> Java Swing logistics and fleet management desktop software`,
 
     posts: `VERIFIED LINKEDIN POSTS & MILESTONES (linkedin.com/in/muhammadaryanafzal):
   [1] AutoGrade AI OCR Release:
