@@ -132,23 +132,26 @@ function initMobileNavigation() {
    ============================================================================= */
 function initScrollSpy() {
   const navbar = document.getElementById('navbar');
+  const navContainer = navbar ? navbar.querySelector('.navbar-container') : null;
   const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links .nav-link');
+  const navLinks = document.querySelectorAll('#nav-links .nav-link, .nav-pill-menu .nav-link');
 
   window.addEventListener('scroll', () => {
-    // Add box shadow when scrolled
+    // Elevate floating pill when scrolled
     if (window.scrollY > 40) {
-      navbar.style.borderBottomColor = 'var(--border-medium)';
-      navbar.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.25)';
+      if (navContainer) {
+        navContainer.style.boxShadow = '0 16px 40px -10px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 210, 255, 0.25)';
+      }
     } else {
-      navbar.style.borderBottomColor = 'var(--border-subtle)';
-      navbar.style.boxShadow = 'none';
+      if (navContainer) {
+        navContainer.style.boxShadow = '';
+      }
     }
 
     // Active link highlighting
     let currentId = '';
     sections.forEach(section => {
-      const top = section.offsetTop - 120;
+      const top = section.offsetTop - 140;
       const height = section.offsetHeight;
       if (window.scrollY >= top && window.scrollY < top + height) {
         currentId = section.getAttribute('id');

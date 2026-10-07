@@ -47,46 +47,47 @@
   <div class="ambient-glow glow-3"></div>
 
   <!-- =========================================================================
-       NAVIGATION BAR
+       NAVIGATION BAR (MODERN FLOATING GLASS CAPSULE)
        ========================================================================= -->
   <header class="navbar-wrapper" id="navbar">
-    <div class="container navbar-container">
-      <a href="#hero" class="nav-brand" aria-label="Muhammad Aryan Afzal Home">
-        <span class="brand-bracket">&lt;</span>
-        <span class="brand-first">Aryan</span>
-        <span class="brand-accent">.Afzal</span>
-        <span class="brand-bracket"> /&gt;</span>
+    <div class="navbar-container">
+      <!-- Left: Refined Personal Brand -->
+      <a href="#hero" class="nav-brand" aria-label="Muhammad Aryan Afzal">
+        <span class="brand-avatar">
+          <img src="assets/images/aryan-portrait.jpg" alt="Muhammad Aryan Afzal" />
+        </span>
+        <div class="brand-meta">
+          <span class="brand-name">Aryan Afzal</span>
+          <span class="brand-status">
+            <span class="status-pulse-dot"></span>
+            <span class="status-text">Available</span>
+          </span>
+        </div>
       </a>
 
-      <!-- Desktop Navigation Links -->
-      <nav class="nav-links" id="nav-links">
+      <!-- Center: Segmented Navigation Links -->
+      <nav class="nav-pill-menu" id="nav-links">
         <a href="#about" class="nav-link">About</a>
-        <a href="#design" class="nav-link highlight-design">
-          <i class="fa-brands fa-figma text-amber"></i> Web Design & Figma
-        </a>
-        <a href="#linkedin-posts" class="nav-link highlight-link">
-          <i class="fa-brands fa-linkedin"></i> LinkedIn Activity
-        </a>
-        <a href="#projects" class="nav-link">Projects & Repos</a>
+        <a href="#design" class="nav-link">Design</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#linkedin-posts" class="nav-link">Milestones</a>
         <a href="#experience" class="nav-link">Experience</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#terminal" class="nav-link">Terminal</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
-      <!-- Nav Actions (Theme Toggle & CTA) -->
+      <!-- Right: Action Controls -->
       <div class="nav-actions">
-        <button id="theme-toggle" class="icon-btn theme-toggle-btn" aria-label="Toggle Color Theme" title="Toggle Dark/Light Mode">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Color Theme" title="Toggle Dark/Light Mode">
           <i class="fa-solid fa-moon moon-icon"></i>
           <i class="fa-solid fa-sun sun-icon"></i>
         </button>
 
-        <a href="assets/docs/Muhammad_Aryan_Afzal_CV.pdf" target="_blank" class="btn btn-outline btn-sm nav-cv-btn" download="Muhammad_Aryan_Afzal_CV.pdf">
-          <i class="fa-solid fa-file-arrow-down"></i>
+        <a href="assets/docs/Muhammad_Aryan_Afzal_CV.pdf" target="_blank" class="nav-resume-btn" download="Muhammad_Aryan_Afzal_CV.pdf">
+          <i class="fa-solid fa-file-pdf"></i>
           <span>Resume</span>
         </a>
 
-        <a href="#contact" class="btn btn-primary btn-sm nav-hire-btn">
+        <a href="#contact" class="nav-cta-btn">
           <span>Hire Me</span>
           <i class="fa-solid fa-arrow-right"></i>
         </a>
@@ -104,27 +105,35 @@
   <!-- Mobile Drawer Menu -->
   <div class="mobile-drawer" id="mobile-drawer">
     <div class="drawer-header">
-      <span class="brand-first">Aryan<span class="brand-accent">.Afzal</span></span>
+      <div class="drawer-brand">
+        <span class="drawer-avatar">
+          <img src="assets/images/aryan-portrait.jpg" alt="Muhammad Aryan Afzal" />
+        </span>
+        <div class="drawer-meta">
+          <span class="drawer-name">Aryan Afzal</span>
+          <span class="drawer-role">Web Designer & Frontend Dev</span>
+        </div>
+      </div>
       <button class="close-drawer-btn" id="drawer-close" aria-label="Close Navigation Menu">
         <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
     <div class="drawer-nav">
       <a href="#about" class="drawer-link">About</a>
-      <a href="#design" class="drawer-link"><i class="fa-brands fa-figma text-amber"></i> Web Design & Figma</a>
+      <a href="#design" class="drawer-link">Web Design & Figma</a>
+      <a href="#projects" class="drawer-link">Featured Projects</a>
       <a href="#linkedin-posts" class="drawer-link">LinkedIn Milestones</a>
-      <a href="#projects" class="drawer-link">Projects & Repos</a>
       <a href="#experience" class="drawer-link">Experience & Education</a>
-      <a href="#skills" class="drawer-link">Skills & Stack</a>
+      <a href="#skills" class="drawer-link">Technical Toolkit</a>
       <a href="#terminal" class="drawer-link">Interactive Terminal</a>
       <a href="#contact" class="drawer-link">Contact & Inquiries</a>
     </div>
     <div class="drawer-footer">
       <a href="assets/docs/Muhammad_Aryan_Afzal_CV.pdf" target="_blank" class="btn btn-outline btn-block" download="Muhammad_Aryan_Afzal_CV.pdf">
-        <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+        <i class="fa-solid fa-file-pdf"></i> Download Resume
       </a>
       <a href="#contact" class="btn btn-primary btn-block">
-        <i class="fa-solid fa-envelope"></i> Get In Touch
+        <i class="fa-solid fa-paper-plane"></i> Let's Talk
       </a>
     </div>
   </div>
