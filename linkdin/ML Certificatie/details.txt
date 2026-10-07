@@ -1,0 +1,13 @@
+Excited to share that I've successfully completed The Nuts and Bolts of Machine Learning by Google on Coursera, achieving a 95% score!
+Over the course of this program, I strengthened my understanding of:
+✅ Machine Learning fundamentals
+✅ Data preparation and feature engineering
+✅ Supervised and unsupervised learning
+✅ Building and evaluating machine learning models in Python
+✅ Model optimization and performance tuning
+✅ Classification algorithms, including Random Forest
+This course provided me with practical experience in preparing datasets, selecting appropriate models, evaluating performance metrics, and understanding the complete machine learning workflow.
+As a Computer Science student, I'm committed to continuously expanding my skills in AI, Machine Learning, and Data Science through hands-on learning and real-world projects.
+A big thank you to Google and Coursera for creating such a well-structured and practical learning experience.
+I'm excited to apply these concepts in future projects and continue exploring the world of Artificial Intelligence and Machine Learning.
+#MachineLearning #ArtificialIntelligence #Python #DataScience #Google #Coursera #AI #RandomForest #FeatureEngineering #PredictiveModeling #ComputerScience #ContinuousLearning

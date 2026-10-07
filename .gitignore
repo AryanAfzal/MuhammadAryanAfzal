@@ -1,0 +1,11 @@
+# System & Editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Node
+node_modules/
+.env*
+.vercel

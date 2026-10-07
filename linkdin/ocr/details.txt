@@ -1,0 +1,22 @@
+Turning Handwritten Answer Sheets into Digital Text with AI ✍️➡️📄
+As part of my Final Year Project (FYP), I’m working on an AI-powered system that focuses on one challenging problem: converting handwritten student answer sheets from PDF format into digital, machine-readable text.
+The goal is simple — instead of manually reading and typing handwritten answers, the system processes the scanned PDF and extracts the student's handwriting into digital text while trying to preserve the original wording, structure, and meaning.
+🔍 How it works
+1️⃣ PDF → Image Processing
+The uploaded handwritten PDF is converted into images. Image preprocessing techniques such as OpenCV and CLAHE are used to improve the visibility of faint or unclear handwriting.
+2️⃣ Handwriting Detection & OCR
+The processed pages are passed through a combination of PaddleOCR and Microsoft TrOCR. PaddleOCR helps detect text regions and lines, while TrOCR is used to recognize the actual handwritten text.
+3️⃣ Text Reconstruction
+Since handwritten answers can contain multiple lines and paragraphs, the detected text is organized according to its position on the page to reconstruct the correct reading order.
+4️⃣ AI-Based Text Refinement
+A local Qwen 2.5 LLM through Ollama is used as a post-processing layer to help correct obvious OCR mistakes and improve formatting — while the system is designed to preserve the student's original answer rather than rewrite it.
+🛠️ Technologies Used
+AI/ML: PyTorch, Microsoft TrOCR, PaddleOCR
+Computer Vision: OpenCV, CLAHE
+LLM/NLP: Qwen 2.5, Ollama, SymSpell
+Backend: Python, FastAPI
+Frontend: Next.js, React, Tailwind CSS
+This is currently one of the major components of my FYP, and the next stage is to use the extracted answers for further processing and automated evaluation.
+It has been a great learning experience working with Computer Vision, OCR, Deep Learning, LLMs, and Full-Stack development in one project.
+I’m looking forward to improving the accuracy of handwritten text recognition and taking the system further. 🚀
+#ArtificialIntelligence #MachineLearning #ComputerVision #OCR #TrOCR #PaddleOCR #DeepLearning #NLP #Python #FastAPI #NextJS #LLM #FYP #EdTech
