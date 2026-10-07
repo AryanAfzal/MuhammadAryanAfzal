@@ -813,7 +813,7 @@ const projectDetailsData = {
     title: 'ACM CUI Wah Portal — Official Student Chapter Platform',
     badge: 'Community Web Platform',
     headline: 'Empowering 100+ students with event registration, executive rosters, and hackathon leaderboards.',
-    image: 'assets/images/posts/acm-frontend-cert.jpg',
+    image: 'assets/images/acm-figma-design.png',
     overview: `As a Frontend Developer Intern and Executive Member of the Code Hub at ACM CUI Wah, I built and maintained components for the chapter's official web presence. The platform serves as the central hub for technical bootcamps, programming contest announcements, and member engagement.`,
     challenges: [
       'Frequent content updates requiring a database-driven architecture without complex backend overhead.',
