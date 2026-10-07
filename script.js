@@ -303,12 +303,32 @@ function initInteractiveTerminal() {
     help: `Available commands:
   • bio           - Background, university, and core philosophy
   • skills        - Categorized tech stack & proficiencies
+  • design        - Figma systems, auto-layout & live landing pages
+  • mindrift      - Tendem project web design standards alignment
   • repos         - All 13+ GitHub repositories by @AryanAfzal
   • posts         - Highlights from verified LinkedIn milestones
   • experience    - Professional internships (Engro, Codeifyy, ACM)
   • contact       - Email, phone, LinkedIn, and hiring channels
   • sudo hire-me  - Initiate an interview / hiring handshake
   • clear         - Clear the terminal console output`,
+
+    design: `UI / WEB DESIGN & FIGMA CASE STUDIES:
+  • ACM CUI Wah Landing Page:
+    - Figma Design System: https://www.figma.com/design/HFUTK19uPcBcmiDNkTZJKh/ACM?node-id=0-1&p=f&t=rnG6Y2gA8hSzKoRW-0
+    - Live Production URL: https://www.acmcuiwah.com/
+    - Architecture: Scalable Figma auto-layout components, typography hierarchy, tokenized design-to-code in React.js & Tailwind CSS.
+  • EngroFormsPortal:
+    - Enterprise multi-step workflow portal digitizing internal operations at Engro Fertilizers Ltd.
+  • AutoGrade AI UX:
+    - Information-dense OCR grading interface with confidence scoring and side-by-side answer verification.`,
+
+    mindrift: `MINDRIFT / TENDEM PROJECT ROLE ALIGNMENT (WEB DESIGNER):
+  ✓ Conversion-Driven Layouts: Structuring pitch-style one-pagers and marketing sites from briefs or text copy.
+  ✓ Scalable Figma Systems: Deep proficiency in auto-layout, organized frames, component variants & tokens.
+  ✓ Developer & No-Code Handoff: Preparing exportable assets and implementation-ready specs for React, Webflow, and Framer.
+  ✓ Cross-Platform Consistency: Maintaining strict visual harmony across web pages, pitch decks, and social media.
+  ✓ English Proficiency: Upper-intermediate (B2/C1) for remote international collaboration.
+  ✓ Availability: 10–20 hours/week part-time freelance at up to $50/hr equivalent.`,
 
     bio: `[NAME]: Muhammad Aryan Afzal
 [ROLE]: Web Designer | Frontend Developer | AI/ML Explorer
@@ -805,8 +825,10 @@ const projectDetailsData = {
       'Integrated Supabase for real-time announcements and event registration storage.',
       'Collaborated within an Agile/Git workflow with team code reviews and deployment cycles.'
     ],
-    stack: ['React.js', 'Supabase', 'Tailwind CSS', 'Git/GitHub', 'Agile'],
-    repoLink: 'https://github.com/ACM-CUI-Wah/ACM-CUI-Web'
+    stack: ['React.js', 'Figma Auto-Layout', 'Design Systems', 'Supabase', 'Tailwind CSS', 'Git/GitHub'],
+    repoLink: 'https://github.com/ACM-CUI-Wah/ACM-CUI-Web',
+    figmaLink: 'https://www.figma.com/design/HFUTK19uPcBcmiDNkTZJKh/ACM?node-id=0-1&p=f&t=rnG6Y2gA8hSzKoRW-0',
+    liveLink: 'https://www.acmcuiwah.com/'
   },
 
   'olt-dashboard': {
@@ -836,6 +858,18 @@ function openProjectModal(projectId) {
   const modal = document.getElementById('project-modal');
   const content = document.getElementById('modal-content');
   if (!modal || !content) return;
+
+  const figmaBtn = data.figmaLink ? `
+    <a href="${data.figmaLink}" target="_blank" rel="noopener noreferrer" class="btn btn-figma btn-md">
+      <i class="fa-brands fa-figma"></i> Open Figma Design
+    </a>
+  ` : '';
+
+  const liveBtn = data.liveLink ? `
+    <a href="${data.liveLink}" target="_blank" rel="noopener noreferrer" class="btn btn-live btn-md">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live Website
+    </a>
+  ` : '';
 
   content.innerHTML = `
     <div class="modal-header-meta">
@@ -880,7 +914,9 @@ function openProjectModal(projectId) {
       </div>
     </div>
 
-    <div style="display: flex; gap: 0.8rem; border-top: 1px solid var(--border-subtle); padding-top: 1.2rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.8rem; border-top: 1px solid var(--border-subtle); padding-top: 1.2rem;">
+      ${figmaBtn}
+      ${liveBtn}
       <a href="${data.repoLink}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-md">
         <i class="fa-brands fa-github"></i> View GitHub Repository
       </a>

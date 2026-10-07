@@ -2750,6 +2750,271 @@ html[data-theme="light"] .sun-icon { display: block; color: var(--accent-amber);
 }
 
 /* ==========================================================================
+   WEB DESIGN & FIGMA SHOWCASE (MINDRIFT / TENDEM STANDARDS)
+   ========================================================================== */
+.design-showcase-section {
+  background: linear-gradient(180deg, transparent 0%, rgba(168, 85, 247, 0.04) 50%, transparent 100%);
+}
+
+.design-hero-card {
+  background: var(--bg-surface);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  transition: all var(--transition-normal);
+}
+
+.design-hero-card:hover {
+  border-color: var(--accent-violet);
+  box-shadow: 0 20px 50px rgba(168, 85, 247, 0.18);
+}
+
+.design-hero-content {
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.design-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.figma-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: rgba(242, 78, 30, 0.15);
+  color: #ff7262;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid rgba(242, 78, 30, 0.35);
+}
+
+.live-site-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: rgba(5, 214, 158, 0.15);
+  color: var(--accent-emerald);
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid rgba(5, 214, 158, 0.35);
+}
+
+.design-hero-title {
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+.design-hero-desc {
+  font-size: 0.98rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.8rem;
+}
+
+.design-hero-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  background: var(--bg-surface-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.spec-title {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.spec-value {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.design-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.btn-figma {
+  background: linear-gradient(135deg, #f24e1e, #a259ff);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(242, 78, 30, 0.35);
+}
+
+.btn-figma:hover {
+  background: linear-gradient(135deg, #ff6b3d, #b574ff);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(242, 78, 30, 0.45);
+}
+
+.btn-live {
+  background: linear-gradient(135deg, #05d69e, #0284c7);
+  color: #070a13;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(5, 214, 158, 0.3);
+}
+
+.btn-live:hover {
+  background: linear-gradient(135deg, #10b981, #0ea5e9);
+  color: #070a13;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(5, 214, 158, 0.45);
+}
+
+.design-hero-preview {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 380px;
+}
+
+.design-hero-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.design-hero-preview:hover img {
+  transform: scale(1.05);
+}
+
+.preview-interactive-badge {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 1.2rem;
+  right: 1.2rem;
+  background: rgba(7, 10, 19, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  padding: 0.8rem 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.preview-badge-text {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Mindrift Tendem Alignment Pillars */
+.tendem-standards-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 2.8rem;
+  box-shadow: var(--shadow-md);
+}
+
+.tendem-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tendem-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 170, 0, 0.15);
+  color: var(--accent-amber);
+  border: 1px solid rgba(255, 170, 0, 0.35);
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tendem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.tendem-pillar-card {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-fast);
+}
+
+.tendem-pillar-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary-cyan);
+  box-shadow: var(--shadow-md);
+}
+
+.pillar-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.1rem;
+}
+
+.pillar-icon-wrap.figma-c { background: rgba(242, 78, 30, 0.15); color: #ff7262; }
+.pillar-icon-wrap.convert-c { background: rgba(255, 170, 0, 0.15); color: var(--accent-amber); }
+.pillar-icon-wrap.handoff-c { background: rgba(5, 214, 158, 0.15); color: var(--accent-emerald); }
+.pillar-icon-wrap.brand-c { background: rgba(0, 210, 255, 0.15); color: var(--primary-cyan); }
+
+.tendem-pillar-card h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.tendem-pillar-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ==========================================================================
    RESPONSIVE DESIGN (TABLETS, MOBILES, ULTRA-WIDE)
    ========================================================================== */
 @media (max-width: 1100px) {
@@ -2807,6 +3072,14 @@ html[data-theme="light"] .sun-icon { display: block; color: var(--accent-amber);
     grid-template-columns: 1fr;
   }
 
+  .design-hero-card {
+    grid-template-columns: 1fr;
+  }
+
+  .tendem-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2826,6 +3099,10 @@ html[data-theme="light"] .sun-icon { display: block; color: var(--accent-amber);
   }
 
   .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tendem-grid {
     grid-template-columns: 1fr;
   }
 
