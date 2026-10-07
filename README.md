@@ -7,15 +7,15 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 A modern, high-performance, and bespoke developer portfolio crafted with semantic **HTML5, CSS3 with custom variables & glassmorphism, and modern Vanilla JavaScript (ES6+)**. Engineered with zero external framework dependencies for instantaneous load times (100/100 Lighthouse performance), responsive across all devices, and configured for seamless edge deployment on **Vercel**.
 
 ---
 
-## ✨ Key Features & Architecture
+## Key Features & Architecture
 
-### 1. 📸 Verified LinkedIn Milestones & Media Showcase
+### 1. Verified LinkedIn Milestones & Media Showcase
 - **AutoGrade FYP Release**: Full breakdown of the AI handwritten exam paper evaluation platform (TrOCR 98% OCR accuracy, PaddleOCR, Qwen 2.5 Ollama, Next.js, NestJS).
 - **Engro Fertilizers Ltd. Internship**: Interactive multi-photo gallery showing Muhammad Aryan Afzal at the Daharki manufacturing plant, conducting in-house technical seminars on Network Architecture & the OSI/TCP-IP model, and engineering the `EngroFormsPortal`.
 - **Codeifyy Solutions R&D**: Official welcome announcement and R&D appointment under CTO Muhammad Ahmad.
@@ -26,7 +26,7 @@ A modern, high-performance, and bespoke developer portfolio crafted with semanti
   - *Introduction to Git and GitHub* by Google on Coursera (Funded by HEC Pakistan).
 - **Transport Management System (TMS)**: Java Swing desktop software launch.
 
-### 2. 🎨 UI/UX & Web Design Case Studies (Mindrift / Tendem Aligned)
+### 2. UI/UX & Web Design Case Studies (Mindrift / Tendem Aligned)
 - **ACM CUI Wah Design System & Landing Page**:
   - **Figma Design File**: [Open in Figma](https://www.figma.com/design/HFUTK19uPcBcmiDNkTZJKh/ACM?node-id=0-1&p=f&t=rnG6Y2gA8hSzKoRW-0)
   - **Live Production Website**: [acmcuiwah.com](https://www.acmcuiwah.com/)
@@ -39,7 +39,7 @@ A modern, high-performance, and bespoke developer portfolio crafted with semanti
   - Strict visual consistency between interactive web interfaces, static PDFs, and social media branding.
   - English proficiency: Upper-intermediate (B2/C1) for remote international collaboration.
 
-### 3. 💻 Featured GitHub Repositories (9 Core Projects)
+### 3. Featured GitHub Repositories (9 Core Projects)
 Includes real-time instant search and category filtering for featured public repositories by `@AryanAfzal`:
 1. `AutoGrade` — Flagship AI handwritten exam evaluation platform.
 2. `OCR_SYSTEM` — Vision transformer microservice with Microsoft TrOCR Base and FastAPI.
@@ -51,7 +51,7 @@ Includes real-time instant search and category filtering for featured public rep
 8. `Tailor-Managment-System` — Client measurement and custom apparel order ERP (Flutter, Dart, SQLite).
 9. `Transport-Management-System-TMS-` — Java Swing desktop logistics and fleet management.
 
-### 4. 📬 Fully Functional Contact Form (Direct to `maryan3604@gmail.com`)
+### 4. Fully Functional Contact Form (Direct to `maryan3604@gmail.com`)
 - Powered by FormSubmit AJAX endpoint without requiring backend server maintenance.
 - Real-time client-side field validation (name, email, subject, message length).
 - Animated submission state with loading spinner and double-submit prevention.
@@ -59,20 +59,20 @@ Includes real-time instant search and category filtering for featured public rep
 - One-click copy email button with tooltip feedback.
 - Instant direct `mailto:` fallback button for native email clients.
 
-### 5. 💻 Interactive Developer Terminal / CLI Simulator
+### 5. Interactive Developer Terminal / CLI Simulator
 - Realistic UNIX zsh shell simulator (`aryan@portfolio:~$`).
 - Interactive commands: `help`, `bio`, `skills`, `design`, `mindrift`, `repos`, `posts`, `experience`, `contact`, `sudo hire-me`, `clear`.
 - Clickable quick-run action chips for touchscreens and mobile visitors.
 - Command history navigation using Up/Down arrow keys.
 
-### 6. 🎨 Bespoke Design System & Theming
+### 6. Bespoke Design System & Theming
 - Vibrant cyber-dark and editorial-light theme switch with persistent `localStorage`.
 - Fluid typography utilizing Google Fonts (`Outfit`, `Plus Jakarta Sans`, `Inter`, `JetBrains Mono`).
 - Smooth micro-interactions, responsive lightbox modals, and interactive project deep-dive drawers.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 MuhammadAryanAfzal/
@@ -107,7 +107,7 @@ MuhammadAryanAfzal/
 
 ---
 
-## ⚡ Quick Start & Local Preview
+## Quick Start & Local Preview
 
 ### Option 1: Direct File Open
 Double click `index.html` in your file explorer to open it in Google Chrome, Microsoft Edge, or Firefox.
@@ -121,7 +121,7 @@ Open your browser and navigate to: `http://localhost:3000`
 
 ---
 
-## 🚀 Deployment to Vercel
+## Deployment to Vercel
 
 This portfolio is 100% static and zero-config ready for Vercel edge deployment:
 
@@ -142,7 +142,7 @@ This portfolio is 100% static and zero-config ready for Vercel edge deployment:
 
 ---
 
-## 📬 Contact & Inquiries
+## Contact & Inquiries
 
 - **Email**: [maryan3604@gmail.com](mailto:maryan3604@gmail.com)
 - **Phone**: +92 366-2372537

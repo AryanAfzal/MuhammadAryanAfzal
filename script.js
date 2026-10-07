@@ -323,12 +323,12 @@ function initInteractiveTerminal() {
     - Information-dense OCR grading interface with confidence scoring and side-by-side answer verification.`,
 
     mindrift: `MINDRIFT / TENDEM PROJECT ROLE ALIGNMENT (WEB DESIGNER):
-  ✓ Conversion-Driven Layouts: Structuring pitch-style one-pagers and marketing sites from briefs or text copy.
-  ✓ Scalable Figma Systems: Deep proficiency in auto-layout, organized frames, component variants & tokens.
-  ✓ Developer & No-Code Handoff: Preparing exportable assets and implementation-ready specs for React, Webflow, and Framer.
-  ✓ Cross-Platform Consistency: Maintaining strict visual harmony across web pages, pitch decks, and social media.
-  ✓ English Proficiency: Upper-intermediate (B2/C1) for remote international collaboration.
-  ✓ Availability: 10–20 hours/week part-time freelance at up to $50/hr equivalent.`,
+  [+] Conversion-Driven Layouts: Structuring pitch-style one-pagers and marketing sites from briefs or text copy.
+  [+] Scalable Figma Systems: Deep proficiency in auto-layout, organized frames, component variants & tokens.
+  [+] Developer & No-Code Handoff: Preparing exportable assets and implementation-ready specs for React, Webflow, and Framer.
+  [+] Cross-Platform Consistency: Maintaining strict visual harmony across web pages, pitch decks, and social media.
+  [+] English Proficiency: Upper-intermediate (B2/C1) for remote international collaboration.
+  [+] Availability: 10–20 hours/week part-time freelance at up to $50/hr equivalent.`,
 
     bio: `[NAME]: Muhammad Aryan Afzal
 [ROLE]: Web Designer | Frontend Developer | AI/ML Explorer
@@ -380,12 +380,12 @@ function initInteractiveTerminal() {
   • GitHub:   https://github.com/AryanAfzal
   • WhatsApp: https://wa.me/923662372537`,
 
-    'sudo hire-me': `PERMISSION GRANTED: Handshake initiated! 🤝
+    'sudo hire-me': `PERMISSION GRANTED: Handshake initiated!
 Muhammad Aryan Afzal is available for:
-  ✓ Full-Time Frontend Engineering
-  ✓ UI/UX Design & Figma-to-Code Implementation
-  ✓ Enterprise Portal & Web Workflow Digitization
-  ✓ Contract & Remote Freelance
+  [+] Full-Time Frontend Engineering
+  [+] UI/UX Design & Figma-to-Code Implementation
+  [+] Enterprise Portal & Web Workflow Digitization
+  [+] Contract & Remote Freelance
 
 Email maryan3604@gmail.com or scroll down to the Contact form to send an offer!`
   };
